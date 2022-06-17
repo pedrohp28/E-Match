@@ -35,7 +35,11 @@ NetBeans IDE 12.6
 
 ## ✒️ Autores
 Pedro Henrique Pereira - https://www.linkedin.com/in/pedro-henrique-pereira-15962021a/
+
 Maria Eduarda Albuquerque - https://www.linkedin.com/in/maria-eduarda-albuquerque-9a7067221/
+
 Lucas Munhoz - https://www.linkedin.com/in/lucas-munhoz-b946131a5/
+
 Lucas Adriano - https://www.linkedin.com/in/lucas-adriano-0a30a221a/
+
 Pedro Henrique Damaso - https://www.linkedin.com/in/pedro-h-damaso-florenzano/
