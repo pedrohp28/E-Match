@@ -44,7 +44,6 @@ public class Tela_Principal extends javax.swing.JFrame {
         bCadastroUsuario = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        bPedidoVendas = new javax.swing.JButton();
         btSair = new javax.swing.JButton();
         bCadastroProdutos1 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
@@ -97,17 +96,6 @@ public class Tela_Principal extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(153, 255, 153));
         jLabel1.setText("MENU");
 
-        bPedidoVendas.setBackground(new java.awt.Color(102, 102, 102));
-        bPedidoVendas.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
-        bPedidoVendas.setForeground(new java.awt.Color(153, 255, 153));
-        bPedidoVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/carrinho-de-compras.png"))); // NOI18N
-        bPedidoVendas.setText("Pedido de Venda");
-        bPedidoVendas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bPedidoVendasActionPerformed(evt);
-            }
-        });
-
         btSair.setBackground(new java.awt.Color(102, 102, 102));
         btSair.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         btSair.setForeground(new java.awt.Color(153, 255, 153));
@@ -139,7 +127,6 @@ public class Tela_Principal extends javax.swing.JFrame {
                     .addComponent(bCadastroCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(bCadastroUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jSeparator1)
-                    .addComponent(bPedidoVendas, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(0, 0, Short.MAX_VALUE))
@@ -160,8 +147,6 @@ public class Tela_Principal extends javax.swing.JFrame {
                 .addComponent(bCadastroProdutos1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(bCadastroUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(bPedidoVendas, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btSair, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -225,12 +210,6 @@ public class Tela_Principal extends javax.swing.JFrame {
 
     }//GEN-LAST:event_bCadastroUsuarioActionPerformed
 
-    private void bPedidoVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPedidoVendasActionPerformed
-        // TODO add your handling code here:
-        new PedidoVenda().setVisible(true);
-
-    }//GEN-LAST:event_bPedidoVendasActionPerformed
-
     private void btSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSairActionPerformed
         // TODO add your handling code here:
         this.dispose();
@@ -279,7 +258,6 @@ public class Tela_Principal extends javax.swing.JFrame {
     private javax.swing.JButton bCadastroCliente;
     private javax.swing.JButton bCadastroProdutos1;
     private javax.swing.JButton bCadastroUsuario;
-    private javax.swing.JButton bPedidoVendas;
     private javax.swing.JButton btSair;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

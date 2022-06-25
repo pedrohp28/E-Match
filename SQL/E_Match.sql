@@ -33,17 +33,6 @@ create table if not exists Produto  (
     quantidade int not null
 );
 
-create table if not exists Pedido
-(
-	id integer primary key auto_increment,
-    cliente_id int,
-    produto_id int,
-    quantidade char(14) not null,
-    
-    foreign key (cliente_id) references Cliente(id),
-    foreign key (produto_id) references Produto(id)
-);
-
 delimiter $
 create procedure novoCliente(
 	nome_completo varchar(50),
